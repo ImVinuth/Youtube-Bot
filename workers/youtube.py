@@ -46,7 +46,7 @@ async def ytdl(_, message):
     except Exception:
         await message.reply_text("Failed To Fetch Youtube Data.....😔"
                                  "Wait for {wait_time} or try other link"
-                                 "[Pʀᴇᴅ∆ᴛᴏʀ](https://telegra.ph/file/3f287a7ff7bd6d63fbd60.jpg)")
+                                 "[Pʀᴇᴅ∆ᴛᴏʀ](https://telegra.ph/file/d889ead309cde29e5fd42.jpg)")
         return
     buttons = InlineKeyboardMarkup(list(create_buttons(formats)))
     sentm = await message.reply_text("Select Audio or Video👇🏻")
